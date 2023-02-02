@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### There were some issues will deploying this to elastic beanstalk
+
+####
+
+1. Dont include the package.lock.json inside the docker container
+
+2. Verify the Access roles for the user.
+
+3. Is it blocking anything
