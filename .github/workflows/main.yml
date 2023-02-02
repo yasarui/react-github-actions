@@ -23,5 +23,5 @@ jobs:
           environment_name: Reactsampleapplicationfinal-env
           existing_bucket_name: elasticbeanstalk-ap-south-1-718132835142
           region: ap-south-1
-          version_label: Sample
+          version_label: ${{ github.sha }}
           deployment_package: deploy.zip
