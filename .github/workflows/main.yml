@@ -17,8 +17,8 @@ jobs:
       - name: Deploy to EB
         uses: einaregilsson/beanstalk-deploy@v21
         with:
-          aws_access_key: AKIA2ONANONDNIM5XNYB
-          aws_secret_key: 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
+          aws_access_key: AKIA2ONANONDEF47LQEF
+          aws_secret_key: zufTEZ2Zc7rU7Ucdtd1KC2qNHPd6EBy16p6U1hhh
           application_name: react-sample-application-final
           environment_name: Reactsampleapplicationfinal-env
           version_label: ${{ github.sha }}
