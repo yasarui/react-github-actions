@@ -22,5 +22,5 @@ jobs:
           application_name: react-sample-application-final
           environment_name: Reactsampleapplicationfinal-env
           version_label: ${{ github.sha }}
-          region: us-east-1
+          region: ap-south-1
           deployment_package: deploy.zip
